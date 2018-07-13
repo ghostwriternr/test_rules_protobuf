@@ -1,0 +1,7 @@
+# Bazel files
+bazel-bin
+bazel-genfiles
+bazel-grpc
+bazel-out
+bazel-testlogs
+bazel-test_rules_protobuf
