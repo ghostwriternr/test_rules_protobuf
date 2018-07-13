@@ -15,6 +15,6 @@
 
 import threading
 
-from grpc_health.v1 import health_pb2
-from grpc_health.v1 import health_pb2_grpc
+from src.py_health import health_pb2
+from src.py_health import health_pb2_grpc
 
