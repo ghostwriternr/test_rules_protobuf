@@ -4,7 +4,8 @@ def main():
   print("*****************************************")
   print("************* Hello World ***************")
   print("*****************************************")
-  health.run()
+  print health.print_bottle("foo")
+  #health.run()
 
 
 if __name__ == "__main__":
