@@ -8,4 +8,5 @@ py_test(
     deps = [
         "//src/py_health:grpc_health",
     ],
+    imports = ["../"],
 )

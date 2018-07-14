@@ -1,5 +1,4 @@
 from src.py_health import health_pb2
-from src.py_health import health_pb2_grpc
 
 def print_bottle(note_string):
     my_bottle = health_pb2.Bottle(note='Ahoy!')
