@@ -6,5 +6,12 @@ py_library(
     deps = [
         "//protos/health:health_py_proto",
     ],
-    imports=["../../",],
+)
+
+py_binary(
+    name = "main",
+    srcs = ["main.py"],
+    deps = [
+      ":grpc_health",
+    ],
 )
