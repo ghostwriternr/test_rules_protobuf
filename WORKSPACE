@@ -17,8 +17,8 @@ pip_install()
 
 git_repository(
   name = "org_pubref_rules_protobuf",
-  remote = "https://github.com/pubref/rules_protobuf",
-  tag = "v0.8.2",
+  remote = "https://github.com/ghostwriternr/rules_protobuf",
+  tag = "v0.8.2.1-alpha",
 )
 
 load("@org_pubref_rules_protobuf//python:rules.bzl", "py_proto_repositories")
